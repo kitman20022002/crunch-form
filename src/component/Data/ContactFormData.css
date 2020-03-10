@@ -1,0 +1,92 @@
+.form--disabled .container-input-group {
+    margin: 0 0 20px 0;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    max-width: unset;
+}
+
+.form--disabled .container-input-group .container-input {
+    margin-left: 40px;
+    width: 100%;
+}
+
+.form--disabled .container-form-row {
+    display: flex;
+    width: 100%;
+}
+
+.form--disabled label {
+    text-align: right;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    width: 100%;
+}
+
+/******************************************************************/
+
+.form--disabled .search {
+    display: flex;
+    max-width: unset;
+}
+
+/******************************************************************/
+
+.form--disabled .container-text-area {
+    display: flex;
+    width: 100%;
+}
+
+.form--disabled textarea {
+    margin-left: 40px;
+    background-color: transparent;
+    border: none;
+}
+
+.form--disabled .container-text-area label {
+    text-align: right;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    width: 230px;
+}
+
+.form--disabled textarea {
+    margin-left: 40px;
+    background-color: transparent;
+    border: none;
+}
+
+.form--disabled input[type=checkbox] {
+    margin: 0;
+}
+
+.form--disabled .row-space {
+    margin-left: 40px;
+}
+.form--disabled .checkbox--green {
+    margin-left: 0;
+}
+/******************************************************************/
+@media screen and (max-width: 1000px) {
+    .form--disabled .container-input-group {
+        width: 100% !important;
+        flex-wrap: wrap;
+        text-align: left;
+    }
+
+    .form--disabled label {
+        text-align: left !important;
+    }
+
+    .form--disabled .container-input-group .container-input {
+        margin: 0 !important;
+    }
+
+    .form--disabled .container-input-group .search {
+        flex-wrap: wrap;
+    }
+
+    .form--disabled .container-text-area {
+        flex-wrap: wrap;
+    }
+}

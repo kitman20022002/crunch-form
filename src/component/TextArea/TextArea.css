@@ -1,0 +1,25 @@
+textarea {
+    max-width: 100%;
+    width: 100%;
+    min-height: 206px;
+    border: none;
+    box-sizing: border-box;
+    position: relative;
+    padding: 10px;
+}
+
+::-webkit-resizer {
+    border-bottom: 100px solid #c0c0c0;
+    border-left: 100px solid transparent;
+}
+
+textarea:focus {
+    outline: none;
+    border: 1px solid #050925;
+}
+
+.container-text-area {
+    max-width: 100%;
+    width: 100%;
+}
+

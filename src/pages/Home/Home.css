@@ -1,0 +1,193 @@
+@font-face {
+    font-family: Avenir;
+    src: url("https://s3.amazonaws.com/resources.theinvulnerable.com.au/AvenirLTStd-Book.otf") format("opentype");
+}
+
+.modal-max-width {
+    width: 100%;
+}
+
+.form-max-width {
+    max-width: 680px;
+}
+
+.container-company {
+    margin: auto;
+    text-align: center;
+}
+
+.container-input {
+    position: relative;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.error {
+    border: 1px solid #FF516D !important;
+}
+
+/************************************/
+/*************Icon*****************/
+/************************************/
+.icon-error {
+    position: absolute;
+    right: 12px;
+    top: 8px;
+}
+
+.icon-done {
+    font-size: 25px;
+    margin-left: 15px;
+}
+
+.icon-search{
+    position: absolute;
+    bottom: 8px;
+    right: 10px;
+}
+/************************************/
+/*************Form*****************/
+/************************************/
+.form {
+    padding: 0 40px;
+    /*max-width: 680px;need to fix*/
+}
+
+.form h2 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #FE7B04;
+    margin: 50px 0 24px 0;
+}
+
+.form label {
+    font-size: 16px;
+    font-weight: 400;
+    color: #050925;
+    display: block;
+    margin: 0 0 4px 0;
+}
+
+.form input {
+    border: 1px solid transparent;
+    border-radius: 1px;
+    padding: 6px 5px;
+    font-size: 16px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.form input[type=checkbox] {
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.form input:focus {
+    border: 1px solid #050925;
+    outline: none;
+}
+
+/************************************/
+/*************Button*****************/
+/************************************/
+.button {
+    min-width: 105px;
+    padding: 7px 20px;
+    border: 0;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.button--white {
+    color: #FE7B04;
+    background-color: white;
+    transition: all .25s ease-in-out;
+}
+.button--white:hover{
+    color: white;
+    background-color: #f39037;
+}
+
+.button--orange {
+    background-color: #FE7B04;
+    color: white;
+    transition: all .25s ease-in-out;
+}
+
+.button--orange:hover{
+    background-color: #f39037;
+}
+
+
+
+/*****************************************/
+/*************Responsive*****************/
+/***************************************/
+@media screen and (max-width: 679px) {
+
+    footer {
+        flex-wrap: wrap !important;
+        padding: 20px 40px !important;
+        align-items: left !important;
+        text-align: left !important;
+        margin-top: 25px !important;
+    }
+
+    footer a:first-child {
+        margin-left: 0;
+    }
+
+    header {
+        flex-wrap: wrap;
+    }
+
+    header button:first-child {
+        margin-left: 0;
+    }
+
+    header h1 {
+        margin-bottom: 15px;
+    }
+
+    .popup {
+        width: 100% !important;
+        padding: 20px !important;
+        overflow: scroll !important;
+    }
+
+    .form--disabled .container-form-row {
+        margin: 0 !important;
+    }
+
+    .container-text-area--disabled label {
+        text-align: left !important;
+        width: 100% !important;
+    }
+
+    .container-text-area--disabled {
+        flex-wrap: wrap;
+    }
+
+    .popup textarea {
+        margin: 0 !important;
+        width: 100%;
+        min-height: unset;
+    }
+
+    .popup .form {
+        padding: 0;
+    }
+}

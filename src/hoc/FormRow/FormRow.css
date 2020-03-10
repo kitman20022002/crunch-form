@@ -1,0 +1,5 @@
+.container-form-row{
+    display: flex;
+    position: relative;
+    align-items: center;
+}

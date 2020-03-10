@@ -1,0 +1,15 @@
+footer {
+    padding: 0 167px;
+    margin: 172px auto 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ADAFB8;
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none;
+    margin-left: 27px;
+    color: inherit;
+}

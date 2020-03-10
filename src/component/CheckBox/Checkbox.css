@@ -1,0 +1,11 @@
+.checkbox--green{
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: white;
+    border-radius: 3px;
+    -webkit-transition: all 150ms;
+    transition: all 150ms;
+    border:1px solid #E1E1E1;
+    margin-left: 18px;
+}
