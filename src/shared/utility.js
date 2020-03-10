@@ -37,7 +37,7 @@ export const checkValidity = (value, rules) => {
 
     if (rules.isNumeric) {
         const pattern = /^\d+$/;
-        isValid = pattern.test(value) || value === '' && isValid;
+        isValid = (pattern.test(value) || value === '') && isValid;
         message = "Field must be a number";
     }
 
