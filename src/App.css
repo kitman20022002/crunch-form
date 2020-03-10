@@ -11,7 +11,6 @@ header {
     align-items: center;
 }
 
-
 select {
     min-width: 87px;
     border: 1px solid transparent;
@@ -52,7 +51,8 @@ option:not(:first-of-type) {
 
 input[disabled] {
     background-color: transparent;
-    border: none!important;
+    border: none !important;
+    padding: 0 !important;
 }
 
 select[disabled] {
@@ -62,11 +62,9 @@ select[disabled] {
     -moz-appearance: none;
     text-indent: 1px;
     text-overflow: '';
-    color: black
+    color: black;
+    padding: 0;
 }
-
-
-
 
 header h1 {
     margin: 0;
@@ -75,15 +73,15 @@ header h1 {
     font-weight: 400;
 }
 
-button, input, optgroup, select, textarea{
+button, input, optgroup, select, textarea {
     line-height: unset;
 }
 
-.full-width{
+.full-width {
     width: 100%;
 }
 
-.tick{
+.tick {
     fill: none;
     stroke: #02D57C;
     stroke-width: 2px;

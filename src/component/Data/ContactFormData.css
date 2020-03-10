@@ -38,9 +38,10 @@
 }
 
 .form--disabled textarea {
-    margin-left: 40px;
+    margin: 0 0 0 40px;
     background-color: transparent;
     border: none;
+    padding: 0;
 }
 
 .form--disabled .container-text-area label {
