@@ -20,6 +20,11 @@
     position: relative;
 }
 
+.container-error{
+    position: relative;
+    width: auto;
+}
+
 .flex {
     display: flex;
     align-items: center;

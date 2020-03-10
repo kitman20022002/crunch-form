@@ -16,7 +16,7 @@ select {
     min-width: 87px;
     border: 1px solid transparent;
     border-right: 2px solid #E1E1E1;
-    padding: 6px 0;
+    padding: 4px 0 3px 0;
     box-sizing: border-box;
 }
 
