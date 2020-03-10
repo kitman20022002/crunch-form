@@ -75,6 +75,10 @@ header h1 {
     font-weight: 400;
 }
 
+button, input, optgroup, select, textarea{
+    line-height: unset;
+}
+
 .full-width{
     width: 100%;
 }

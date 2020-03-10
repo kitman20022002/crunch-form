@@ -14,7 +14,8 @@ const Modal = (props) => {
                     <MdDone className={"icon-done"} color={"#02D57C"}/>
                 </div>
                 <p>The contact details have been saved</p>
-                <button onClick={props.togglePopUp} className={"button-close"}><MdClose className={"icon--close"}/>
+                <button onClick={props.togglePopUp} className={"button-close"}>
+                    <MdClose className={"icon--close"}/>
                 </button>
             </div>
             <div className={"content"}>
